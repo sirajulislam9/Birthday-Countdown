@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Acorn";
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1464347601390-25e2842a37f7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "Acorn Bold";
+    src: url(./font/Acorn-Bold.ttf);
+    src: url(./font/Acorn-Regular.ttf);
+    src: url(./font/Acorn-Light.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: "Acorn Regular";
+    src: url(./font/Acorn-Regular.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: "Acorn Light";
+    src: url(./font/Acorn-Light.ttf);
+    font-display: swap;
+}
+
+h1{
+    font-family: "Acorn Bold";
+    font-size: 2.5rem;
+    text-align: center;
+    color: aqua;
+    margin-top: -5rem;
+}
+h1 span{
+    color: yellow;
+    display: block;
+}
+h2{
+    text-align: center;
+    color: aquamarine;
+}
+h3{
+    font-family: 'Acorn Light';
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+    color: azure;
+}
+#birth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+    margin-top: 1rem;
+}
+ 
